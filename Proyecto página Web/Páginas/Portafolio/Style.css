@@ -1,0 +1,564 @@
+
+.subtitle {
+    font-family: Bebas Neue, Verdana;
+    font-size: 90px;
+}
+
+/* MI PORTAFOLIO */
+
+div.mi-portafolio {
+    margin: 200px 0 50px 0;
+    animation-timeline: auto;
+    animation-range-start: normal;
+    animation-range-end: normal;
+    margin: 200px 0px 50px;
+    animation: 1s ease-in-out 0s 1 normal forwards running aparecer;
+}
+
+.sub-mi-portafolio{
+    font-family: Bebas Neue;
+    font-size: 500%;
+    text-align: center;
+}
+
+p.mi-portafolio, p.en-cuanto-a-mi{
+    font-size: 105%;
+    text-align: center;
+}
+
+.header2 {
+    display: flex;
+    justify-content: center;
+    position: sticky;
+    top: 20px;
+    z-index: 1000;
+}
+
+nav.item2 {
+    text-align: center;
+    line-height: 50px;
+    transform: translateY(20px);
+    animation-timeline: auto;
+    animation-range-start: normal;
+    animation-range-end: normal;
+    animation: 1s ease-in-out 0.5s 1 normal forwards running aparecer-arriba;
+}
+
+nav.item2 > ul {
+    display: table;
+    width: 100%;
+}
+
+nav.item2 > ul > li {
+    display: table-cell;
+    padding: 0px 40px;
+}
+
+nav.item2 > ul > li > a {
+    display: inline-block;
+    text-decoration: none;
+    width: 130px;
+    height: 50px;
+    color: rgb(230, 230, 230);
+    background: rgb(30, 30, 30);
+    box-shadow: rgba(0, 0, 0, 0.45) 0px 20px 27px -8px;
+    border: 1.5px solid rgb(200, 200, 200);
+    border-radius: 25px;
+    transition: color 0.4s ease-in-out 0s,
+                background-color 0.4s ease-in-out 0s,
+                box-shadow 0.4s ease-in-out 0s;
+}
+
+nav.item2 > ul > li > a:hover{
+        background: #fff;
+        box-shadow: 0 0 20px 5px #3498db;
+        color: #000;
+}
+
+.ubi-formacion {
+    bottom: 60px;
+    left: 660px;
+}
+
+.ubicacion {
+    position: absolute;
+}
+
+
+.cuadrado1 {
+    position: relative;
+    margin: 210px 0;
+    width: 100%;
+    height: 500px;
+    background-color: #11adee;
+    box-shadow: 0px 10px 10px rgba(0, 0, 0, 0.5), 0px -10px 10px rgba(0, 0, 0, 0.5);
+    overflow: hidden;
+}
+
+/* Formación */
+
+div.formacion{
+    width: 100%;
+    height: 100%;
+}
+
+.sub-formacion{
+    float: right;
+    margin: 20px 50px;
+    font-size: 50px;
+}
+.div2-formacion{
+    float: right;
+    width: 350px;
+    clear: both;
+    margin: 0 50px 0 0;
+}
+
+p.formacion{
+    text-align: right;
+}
+
+/* Linea vertical blanca */
+
+.linea-vertical {
+    width: 2.5px;
+    height: 53vh;
+    float: right;
+    margin: 0 0px 0 30px;
+    background-color: white;
+    position: relative;
+}
+
+/* PENSANDO.png - FORMACIÓN */
+
+.pensando{
+    width: 300px;
+    position: absolute;
+    top: 155px;
+    left: 650px;
+}
+
+/* MAPA FORMACIÓN */
+
+.circulos {
+        display: flex;
+}
+
+.circulo1, .circulo2, .circulo3{
+      width: 125px;
+    height: 125px;
+    border-radius: 50%;
+    z-index: 1;
+    background-color: white;
+    transition: all 0.3s ease;
+    position: relative;
+    top: 30px;
+}
+
+.circulo1:hover, .circulo2:hover, .circulo3:hover{
+        transform: scale(1.2);
+}
+
+.circulo1 {
+    margin: 30px 60px;
+    text-align: center;
+    overflow: hidden;
+}
+
+
+.circulo2 {
+    margin: 151px 65px;
+    text-align: center;
+    overflow: hidden;
+}
+
+.circulo3 {
+    margin: 160px 80px;
+    text-align: center;
+    overflow: hidden;
+}
+
+/* Linea Discotinua */
+
+.linea-discontinua {
+        position: absolute;
+        color: white;
+        width: 50%;
+        left: -51px;
+        top: 30px;
+        filter: brightness(99); /* Para cambiarlo a blanco */
+}
+
+/* Imagenes */
+
+.imagen-EEP, .imagen-melit, .imagen-pregunta{
+        width: 75%;
+}
+
+.imagen-EEP{
+        margin-top: 20px;
+}
+
+.imagen-melit{
+        margin-top: 10px;
+}
+
+.imagen-pregunta{
+        margin-top: 20px;
+}
+
+.cuadrado1 {
+    position: relative;
+    width: 100%;
+    height: 500px;
+    box-shadow: rgba(0, 0, 0, 0.5) 0px 10px 10px, rgba(0, 0, 0, 0.5) 0px -10px 10px;
+    margin: 210px 0px;
+    background: linear-gradient(rgb(17, 173, 238), rgb(204, 193, 255));
+    overflow: hidden;
+}
+
+.formacion {
+    width: 100%;
+    height: 100%;
+}
+
+
+.ubi-habilidades {
+    top: 1525px;
+    left: 660px;
+}
+
+
+main {
+    margin: 210px 0 210px 0;
+}
+
+
+    .contenedor_tarjeta {
+        display: inline-block;
+    }
+
+    .contenedor_tarjeta:hover {
+/*    box-shadow: 0 8px 30px rgba(255, 205, 0, 0.4);
+    border-radius: 10%;*/
+    width: 350px;
+    height: 450px;
+
+    }
+
+    .contenedor_tarjeta_flex{
+        display: flex;
+        justify-content: space-evenly;
+    }
+    .contenedor_tarjeta a {
+        display: inline-block;
+        text-decoration: none;
+    }
+
+
+.contenedor_tarjeta:hover figure {
+/*  box-shadow: 0 8px 30px rgba(255, 205, 0, 0.4);*/
+/*  border-radius: 10%;*/
+    width: 350px;
+    height: 450px;
+    transition: transform 0.4s ease-in-out;
+    transform: rotateY(180deg);
+}
+.contenedor_tarjeta:hover .frontal {
+    -webkit-box-shadow: 2px 10px 83px 16px rgba(0,0,0,1);
+    -moz-box-shadow: 2px 10px 83px 16px rgba(0,0,0,1);
+    box-shadow: 2px 10px 83px 16px rgba(0,0,0,1);
+    opacity: 0.4;
+}
+
+figure {
+    width: 350px;
+    height: 450px;
+    position: relative;
+    transition: all ease .3s;
+    transform: perspective(600px)rotateY(0deg);
+    transform-style: preserve-3d;
+/*          box-shadow: 0 8px 30px rgba(255, 205, 0, 0.4);
+            border-radius: 10%;*/
+}
+figure .frontal {
+    display: block;
+    width: 350px;
+    height: 450px;
+    overflow: hidden;
+
+
+
+
+
+            box-shadow: 0 8px 30px rgba(255, 205, 0, 0.4);
+            border-radius: 10%;
+}
+figure .trasera, figure .frontal {
+            box-shadow: 0 8px 30px rgba(255, 205, 0, 0.4);
+            height: 450px;
+
+
+    border-radius: 10%;
+}
+figure .trasera {
+    top: 0;
+    position: absolute;
+    color: #fff;
+    overflow: hidden;
+    transform: perspective(600px)rotateY(180deg);
+    backface-visibility: hidden;
+}
+
+.p-texto-contenedor-tarjeta{
+    padding: 0px 20px;
+}
+
+figure .trasera .titulo {
+    color: #fff;
+    margin-bottom: 10px;
+    font-size: 35px;
+    text-align: center;
+}
+
+.p-texto-contenedor-tarjeta {
+    padding: 0px 20px;
+}
+
+.div-cuadrado-naranja {
+    display: flex;
+    justify-content: space-around;
+}
+
+.orange-square {
+    width: 1300px;
+    height: 500px;
+    background-image: linear-gradient(rgb(250, 91, 5), rgb(250, 214, 5));
+    position: relative;
+    box-shadow: rgba(0, 0, 0, 0.5) 0px 10px 10px, rgba(0, 0, 0, 0.5) 0px -10px 10px;
+    border-radius: 100px;
+    overflow: hidden;
+    margin: 210px 0px;
+}
+
+.white-overlay {
+    width: 40%;
+    height: 127%;
+    background-color: white;
+    position: absolute;
+    left: 0px;
+}
+
+.white-overlay h2 {
+    color: black;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    font-size: 300%;
+    align-items: center;
+    margin-top: 15px;
+}
+
+.div-paises {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    height: 86%;
+}
+
+.div-Argentina, .div-Italia, .div-Estados-Unidos, .div-Brasil {
+    width: 520px;
+    height: 80px;
+    margin: 15px 0px 0px;
+    overflow: hidden;
+}
+
+#reproductor-audio-uno {
+    position: absolute;
+    top: 16%;
+    left: 37%;
+}
+
+.Argentina, .Italia, .Estados-Unidos, .Brasil {
+    width: 100px;
+    height: 70px;
+    margin-left: 60px;
+    border-radius: 20px;
+    transition: transform 0.3s ease 0s;
+}
+
+#reproductor-audio-dos {
+    position: absolute;
+    top: 31%;
+    left: 37%;
+}
+
+#reproductor-audio-tres {
+    position: absolute;
+    top: 46%;
+    left: 37%;
+}
+
+.div-Brasil p {
+    color: black;
+    position: absolute;
+    left: 245px;
+    bottom: 200px;
+    font-size: 150%;
+}
+
+.white-overlay {
+    width: 40%;
+    height: 127%;
+    background-color: white;
+    position: absolute;
+    left: 0px;
+}
+
+.div-texto-Idiomas {
+    width: 780px;
+    position: relative;
+    left: 520px;
+}
+
+.div-texto-Idiomas p {
+    position: relative;
+    left: 0px;
+    top: 5px;
+    font-size: 20px;
+    margin: 30px 50px;
+}
+
+/* PROYECTOS */
+
+.ubi-proyectos {
+    top: 3350px;
+}
+
+.div-cuadrado-habilidades {
+    display: flex;
+    justify-content: space-around;
+}
+
+.habilidades-square {
+    width: 800px;
+    height: 500px;
+    background-image: linear-gradient(rgb(250, 214, 5), rgb(17, 173, 238));
+    position: relative;
+    box-shadow: rgba(0, 0, 0, 0.5) 0px 10px 10px, rgba(0, 0, 0, 0.5) 0px -10px 10px;
+    border-radius: 50px;
+    overflow: hidden;
+    margin: 210px 0px;
+}
+
+.header-habilidades {
+    width: 100%;
+    height: 18%;
+    background-color: white;
+    position: absolute;
+    left: 0px;
+}
+
+.header-habilidades h2 {
+    color: black;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    font-size: 300%;
+    align-items: center;
+    margin-top: 15px;
+}
+
+.subtitle {
+    font-family: Bebas Neue, Verdana;
+    font-size: 90px;
+
+}
+
+img {
+    overflow-clip-margin: content-box;
+    overflow: clip;
+}
+
+.slider-frame ul {
+    list-style: none; /* Quita los puntos de la lista */
+    padding: 0; /* Elimina el relleno predeterminado de la lista */
+    margin: 0; /* Elimina el margen predeterminado de la lista */
+}
+
+.slider-frame ul li {
+    display: inline-block; /* Coloca los elementos de la lista en línea */
+}
+
+.slider-frame ul li img {
+    width: 100%; /* Hace que todas las imágenes ocupen el ancho completo del contenedor */
+    height: auto; /* Permite que la altura se ajuste automáticamente para mantener la proporción */
+    display: block; /* Hace que las imágenes se comporten como bloques */
+}
+
+.slider-frame ul li .img1{
+    width: 63%;
+}
+
+.slider-frame ul li .img3{
+    width: 63%;
+}
+
+.slider-frame ul li .img2{
+    width: 800px;
+    height: 490px;
+}
+
+.slider-frame ul li .img4{
+    width: 800px;
+    height: 490px;
+}
+
+/* CONTACTAME */
+
+.ubi-contactame{
+    position: absolute;
+    top: 4000px;
+}
+
+div.contactame{
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+}
+
+p.contactame{
+    margin-bottom: 50px;
+}
+
+.icon-container{
+    display: flex;
+        flex-direction: row;
+        justify-content: center;
+
+}
+
+.icon-container a{
+    text-decoration: none;
+    margin: 0 50px;
+}
+
+.icon-github, .icon-linkedin, .icon-gmail{
+    font-size: 80px;
+}
+
+.icon {
+    width: 32px;
+    height: 32px; 
+}
+
+.icon-discord {
+    color: #808080; /* Color gris */
+    transition: color 0.3s ease; /* Transición suave para el cambio de color */
+}
+
+.icon-discord:hover {
+    color: #ffffff; /* Cambia el color a blanco al hacer hover */
+}
+

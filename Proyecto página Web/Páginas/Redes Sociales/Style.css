@@ -1,0 +1,85 @@
+
+
+p{
+    font-size: 20px;
+}
+
+/* 1º HEADER */ 
+
+.header1{
+    position: fixed;
+}
+
+/* HOLA MUNDO */
+
+.div-hola-mundo {
+    position: relative;
+}
+
+/* <a> UBICATION */
+
+.ubicacion-formacion{
+	position: absolute;
+	bottom: 90px;
+	left: 660px;
+}
+
+/* HOLA MUNDO */
+
+.div-hola-mundo {
+	margin: 200px 0 50px 100px;
+	display: flex;
+	justify-content: space-between;
+}
+
+.sub-hola-mundo{
+	font-size: 500%;
+}
+
+.p-texto-hola-mundo, .p-texto-en-cuanto-a-mi{
+	font-size: 105%;
+	text-align: left;
+	width: 474px;
+}
+
+
+
+/* CONTACTAME */
+
+
+
+.texto-contactame {
+    float: right;
+    width: 500px;
+    clear: both;
+    margin: 0 50px;
+}
+
+.subtitle-contactame {
+    float: left;
+}
+
+.p-contactame {
+    text-align: left;
+}
+
+.icon-container {
+    display: flex; /* Utiliza flexbox para alinear los iconos */
+    justify-content: center; /* Centra los iconos horizontalmente */
+    padding: 0;
+    list-style: none;
+}
+
+.icon-container a {
+    text-decoration: none; /* Quita la decoración de los enlaces */
+    margin: 0 10px; /* Añade un margen a cada enlace */
+}
+
+.icon-container a span i {
+    font-size: 30px; /* Tamaño inicial de los iconos */
+    transition: transform 0.3s ease; /* Transición suave al hacer hover */
+}
+
+.icon-container a:hover span i {
+    transform: scale(1.2); /* Aumenta el tamaño al hacer hover */
+}

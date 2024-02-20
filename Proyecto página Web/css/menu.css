@@ -1,0 +1,143 @@
+/* 1º HEADER */
+
+.header1 {
+	z-index: 1000;
+	width: 100%;
+	top: 0;
+	background-color: transparent;
+	transition: background-color 0.3s ease,
+                top 0.3s ease;
+	padding: 10px 0;
+    backdrop-filter: blur(10px); /* Aplicar un desenfoque al fondo */
+}
+
+.header1.hidden {
+    top: -100px;
+    backdrop-filter: none; /* Quitar el desenfoque cuando el menú esté oculto */
+}
+
+.header1:hover {
+    background-color: #0c7baa;
+}
+
+/* LOGO */
+
+.logoFairyTail{
+	width: 2.8%;
+    margin-left: 10px;
+    transition: filter 0.3s;
+}
+
+.header1:hover .logoFairyTail {
+    filter: grayscale(100%) brightness(1000%); /* Aplica el filtro a la imagen */
+}
+
+
+.Farox-Codex {
+    font-family: Bebas Neue, Verdana;
+    font-size: 250%;
+    padding: 0px 20px 0px 0px;
+    margin-left: 10px;
+}
+
+    /* 1º HEADER ITEMS */
+
+nav.item1 {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 20px;
+}
+
+nav.item1 ul {
+    margin-right: 50px;
+}
+
+.ul-item1 {
+    display: flex;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.ul-item1 li {
+	display: inline-block;
+	transition: color 0.4s ease-in-out,
+				background-color 0.4s ease-in-out,
+				box-shadow 0.4s ease-in-out;
+	border-radius: 6px;
+	margin-right: 20px;
+}
+
+.ul-item1 li:last-child {
+    margin-right: 0;
+}
+
+.ul-item1 li:hover {
+	background: #0a5d80;
+}
+
+.ul-item1 li a {
+    font-family: Roboto Mono;
+    display: block;
+    padding: 10px 20px;
+    color: #fff;
+    text-decoration: none;
+    font-size: 105%;
+}
+
+.ul-item1 li ul {
+	position: absolute;
+  	display: none;
+  	padding: 0;
+    background-color: #333;
+}
+
+/*.social-icons {
+    display: none;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    position: absolute;
+    top: 0;
+    right: -10px; 
+}*/
+
+.redes-sociales {
+    position: relative;
+}
+
+.redes-sociales:hover .social-icons {
+    display: block;
+}
+
+.ul-item1 li:hover ul { /* Esto es para que salgan los iconos en "Redes Sociales" */
+    display: block;
+}
+
+/*.nav-item1 ul li ul .icon {
+    text-align: right; 
+}
+ TO DO  */
+nav.item1 > .ul-item1 li a {
+    display: block;
+    padding: 10px 20px;
+    color: #fff;
+    text-decoration: none;
+    font-family: Roboto Mono;
+    font-size: 105%;
+}
+
+/* Iconos de "Redes Sociales" */
+
+.icon {
+	font-size: 50px;
+}
+
+.formulario1:hover {
+    background-color: #141414;
+}
+
+.redes-sociales:hover {
+    background-color: #141414;
+}

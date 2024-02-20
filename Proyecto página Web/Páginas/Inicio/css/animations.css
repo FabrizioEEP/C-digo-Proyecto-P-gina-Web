@@ -1,0 +1,30 @@
+
+/* Aparecer */
+
+.p-texto-hola-mundo, .div-hola-mundo a, .circle {
+    opacity: 0; 
+    animation: aparecer 1s forwards; 
+}
+
+@keyframes aparecer {
+    0% {
+        opacity: 0;
+        transform: translateX(-50px); /* Mueve los elementos a la izquierda */
+    }
+    100% {
+        opacity: 1;
+        transform: translateX(0); /* Vuelve a la posición original */
+    }
+}
+
+.div-hola-mundo a{
+    animation-delay: 0.5s;
+}
+
+.circle {
+    animation-delay: 0.9s; 
+
+
+
+
+

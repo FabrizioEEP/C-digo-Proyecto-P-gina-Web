@@ -1,0 +1,11 @@
+*{
+		margin: 0;
+		padding: 0;
+}
+
+body{
+		font-family: Roboto Mono;
+		color: #fff;
+		cursor: url("https://iconos8.es/icon/DzDNJborQlTB/cursor"), auto;
+		scroll-behavior: smooth;
+}

@@ -1,0 +1,632 @@
+
+/* 1º HEADER */ 
+
+.header1{
+    position: fixed;
+}
+
+/* Ubicaciones de los a del segundo header */
+
+.ubicacion-formacion{
+	position: absolute;
+	bottom: 90px;
+	left: 660px;
+}
+
+/* Primer Header */
+
+.header1 {
+		position: fixed;
+		z-index: 1000;
+		width: 100%;
+		top: 0px;
+/*	background: rgb(57, 57, 57, 0.9); */
+		background-color: rgb(57, 57, 57, 0.9); /* Inicialmente transparente */
+		transition: background-color 0.3s ease;
+}
+
+.header1:hover {
+		background-color: #0c7baa;
+}
+
+/* Header items 1 */
+
+.nav-item1{ /* Un margin de la parte de arriba */
+		margin-top: 5px;
+		display: flex;
+		align-items: center;
+}
+
+/* Farox Codex */
+
+.Farox{
+		font-family: Bebas Neue;
+		font-size: 250%;
+		padding: 0px 35px 0px 35px;
+}
+
+/*	.nav-item1 ul{
+		  margin-left: 50px;
+	} Por si le quiero poner un icono */
+
+.ul-item1 li {
+		display: inline-block;
+		transition: color 0.4s ease-in-out, background-color 0.4s ease-in-out, box-shadow 0.4s ease-in-out;
+		border-radius: 6px;
+}
+
+.ul-item1 li:hover {
+		background: #0a5d80;
+/*		box-shadow: 0 0 20px 5px #3498db;*/
+}
+
+.ul-item1 li ul {
+	  position: absolute;
+  	display: none;
+  	padding: 0;
+    background-color: #333;
+}
+/*
+.nav-item1 ul li ul {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+    right: 0;
+} TO DO - ES PARA QUE LOS ICONOS SALGAN A LA IZQ*/
+
+.ul-item1 li:hover ul { /* Esto es para que salgan los iconos en "Redes Sociales" */
+    display: block;
+}
+
+/*.nav-item1 ul li ul .icon {
+    text-align: right; 
+}
+ TO DO  */
+.nav-item1 > .ul-item1 li a {
+    display: block;
+    padding: 10px 20px;
+    color: #fff;
+    text-decoration: none;
+}
+
+/* Iconos de "Redes Sociales" */
+
+.icon {
+	font-size: 50px;
+}
+
+/* texto1: Bienvenido a mi Portafolio */
+
+.div-mi-portafolio {
+		margin: 200px 0 50px 0;
+}
+
+.subtitle-mi-portafolio{
+		font-family: Bebas Neue;
+		font-size: 500%;
+		text-align: center;
+}
+
+.p-texto-mi-portafolio, .p-texto-en-cuanto-a-mi{
+		font-size: 105%;
+		text-align: center;
+}
+
+/* Segundo Header */
+
+/* TO DOOOOOOOOOOOOOOOOOO: Hacer position: sticky en el segundo header */
+
+.header2{
+		display: flex;
+		justify-content: center;
+}
+
+/* header items 2 */
+
+.nav-item2{
+		text-align: center;
+  	line-height: 50px;
+}
+
+.nav-item2 > ul{
+		display: table;
+		width: 100%;
+}
+
+.nav-item2 > ul > li{
+		display: table-cell;
+		padding: 0 40px;
+}
+
+
+.nav-item2 > ul > li > a{
+		color: #fff;
+		text-decoration: none;
+		display: inline-block;
+		border: 1px solid #fff;
+		border-radius: 25px;
+		width: 130px;
+		height: 50px;
+		transition: color 0.4s ease-in-out, background-color 0.4s ease-in-out, box-shadow 0.4s ease-in-out;
+}
+
+.nav-item2 > ul > li > a:hover{
+		background: #fff;
+		box-shadow: 0 0 20px 5px #3498db;
+		color: #000;
+}
+
+
+/* Fondo Azul */
+
+
+.cuadrado1 {
+		position: relative;
+		margin: 210px 0;
+  	width: 100%;
+  	height: 500px;
+  	background-color: #11adee;
+  	box-shadow: 0px 10px 10px rgba(0, 0, 0, 0.5), 0px -10px 10px rgba(0, 0, 0, 0.5);
+  	overflow: hidden;
+}
+
+/* Formación */
+
+.formacion{
+		width: 100%;
+		height: 100%;
+}
+.subtitle-formacion{
+		float: right;
+		margin: 20px 50px;
+    font-size: 50px;
+}
+.div-formacion{
+		float: right;
+    width: 350px;
+    clear: both;
+    margin: 0 50px 0 0;
+}
+.p-formacion{
+	text-align: right;
+}
+
+/* Linea vertical blanca */
+
+.linea-vertical {
+    width: 2.5px;
+    height: 53vh;
+    float: right;
+    margin: 0 0px 0 30px;
+    background-color: white;
+    position: relative;
+}
+
+
+/* Mapa de la Academic History */
+
+.circulos {
+		display: flex;
+}
+
+.circulo1, .circulo2, .circulo3{
+	  width: 125px;
+    height: 125px;
+    border-radius: 50%;
+    z-index: 1;
+    background-color: white;
+    transition: all 0.3s ease;
+    position: relative;
+    top: 30px;
+}
+
+.circulo1:hover, .circulo2:hover, .circulo3:hover{
+		transform: scale(1.2);
+}
+
+.circulo1 {
+	margin: 30px 60px;
+    text-align: center;
+    overflow: hidden;
+}
+
+
+.circulo2 {
+	margin: 151px 65px;
+    text-align: center;
+    overflow: hidden;
+}
+
+.circulo3 {
+	margin: 160px 80px;
+    text-align: center;
+    overflow: hidden;
+}
+
+/* Linea Discotinua */
+
+.linea-discontinua {
+		position: absolute;
+		color: white;
+		width: 50%;
+		left: -51px;
+		top: 30px;
+		filter: brightness(99); /* Para cambiarlo a blanco */
+}
+
+/* Imagenes */
+
+.imagen-EEP, .imagen-melit, .imagen-pregunta{
+		width: 75%;
+}
+
+.imagen-EEP{
+		margin-top: 20px;
+}
+
+.imagen-melit{
+		margin-top: 10px;
+}
+
+.imagen-pregunta{
+		margin-top: 20px;
+}
+
+/* ---------------------------SEGUNDO BLOQUE-------------------------------- */
+
+
+
+/*
+.rectangulos{
+	padding-left: 20px;
+	margin-left: 20px;
+ 	margin: 15px;
+ 	display: flex;
+  justify-content: space-evenly;
+}
+
+.rectangulo2, .rectangulo3, .rectangulo4{
+	border-radius: 10%;
+	box-shadow: 10px 10px rgba(0, 0, 0, 0.5);
+	padding-left: 0px;
+	width: 300px; 
+ 	height: 300px; 
+ 	background: linear-gradient(to top, #935be9, #d379f0);
+}*/
+
+/* Cuadrados que se dan vueltas */
+
+/*main {
+    display: inline-flex;
+    flex-direction: row;
+    top: 100px;
+    width: 70%;
+    color: #fff;
+    justify-content: space-evenly;
+    align-items: flex-start;
+}*/
+
+main {
+	margin: 210px 0 210px 0;
+}
+
+
+	.contenedor_tarjeta {
+		display: inline-block;
+	}
+
+	.contenedor_tarjeta:hover {
+/*    box-shadow: 0 8px 30px rgba(255, 205, 0, 0.4);
+    border-radius: 10%;*/
+   	width: 350px;
+   	height: 450px;
+
+	}
+
+	.contenedor_tarjeta_flex{
+		display: flex;
+		justify-content: space-evenly;
+	}
+	.contenedor_tarjeta a {
+		display: inline-block;
+		text-decoration: none;
+	}
+
+
+.contenedor_tarjeta:hover figure {
+/*	box-shadow: 0 8px 30px rgba(255, 205, 0, 0.4);*/
+/*	border-radius: 10%;*/
+	width: 350px;
+	height: 450px;
+	transition: transform 0.4s ease-in-out;
+	transform: rotateY(180deg);
+}
+.contenedor_tarjeta:hover .frontal {
+	-webkit-box-shadow: 2px 10px 83px 16px rgba(0,0,0,1);
+	-moz-box-shadow: 2px 10px 83px 16px rgba(0,0,0,1);
+	box-shadow: 2px 10px 83px 16px rgba(0,0,0,1);
+	opacity: 0.4;
+}
+
+figure {
+	width: 350px;
+	height: 450px;
+	position: relative;
+	transition: all ease .3s;
+	transform: perspective(600px)rotateY(0deg);
+	transform-style: preserve-3d;
+/*			box-shadow: 0 8px 30px rgba(255, 205, 0, 0.4);
+			border-radius: 10%;*/
+}
+figure .frontal {
+	display: block;
+	width: 350px;
+	height: 450px;
+	overflow: hidden;
+
+
+
+
+
+			box-shadow: 0 8px 30px rgba(255, 205, 0, 0.4);
+			border-radius: 10%;
+}
+figure .trasera, figure .frontal {
+			box-shadow: 0 8px 30px rgba(255, 205, 0, 0.4);
+			height: 450px;
+
+
+	border-radius: 10%;
+}
+figure .trasera {
+	top: 0;
+	position: absolute;
+	color: #fff;
+	overflow: hidden;
+	transform: perspective(600px)rotateY(180deg);
+	backface-visibility: hidden;
+}
+
+.p-texto-contenedor-tarjeta{
+	padding: 0px 20px;
+}
+
+figure .trasera .titulo {
+	color: #fff;
+	margin-bottom: 10px;
+	font-size: 35px;
+	text-align: center;
+}
+
+
+/* Tonterías */
+
+
+
+.right-section{
+		view-timeline-name: --image;
+		view-timeline-axis: block;
+
+		animation-timeline: --image;
+		animation-name: show;
+
+		animation-range: entry 25% cover 30%;
+		animation-fill-mode:both ;
+}
+
+
+/*.right-section {
+    position: relative; 
+    animation-name: mover-derecha; 
+    animation-duration: 5s; 
+    animation-timing-function: linear; 
+    animation-iteration-count: infinite; 
+}
+
+
+@keyframes mover-derecha {
+    0% { left: 0; }
+    100% { left: 100px; } 
+}
+
+
+.right-section .circulos {
+}
+*/
+
+
+/*
+.right-section {
+        position: relative;
+        animation: mover-derecha 5s ease-in-out infinite;
+    }
+
+    @keyframes mover-derecha {
+        0% {
+            left: 0; 
+        }
+        100% {
+            left: calc(100% - 100px); 
+        }
+    }
+*/
+
+
+
+
+.container{
+  width: 1000px;
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap:wrap;
+  
+}
+
+.container .card{
+  position: relative;
+}
+
+.container .card .face{
+  width:300px;
+  height: 200px;
+  transition:.4s;
+  
+}
+
+.container .card .face.face1{
+  position: relative;
+  background: #333;
+  display: flex;
+  justify-content: center;
+  align-content:center;
+  align-items: center;
+  z-index: 1;
+  transform: translateY(100px);
+}
+
+.container .card:hover .face.face1{
+  transform: translateY(0);
+  box-shadow:
+    inset 0 0 60px whitesmoke,
+    inset 20px 0 80px #f0f,
+    inset -20px 0 80px #0ff,
+    inset 20px 0 300px #f0f,
+    inset -20px 0 300px #0ff,
+    0 0 50px #fff,
+    -10px 0 80px #f0f,
+    10px 0 80px #0ff;
+   
+}
+
+
+.container .card .face.face1 .content{
+  opacity: .2;
+  transition:  0.5s;
+  text-align: center;
+}
+
+.container .card:hover .face.face1 .content{
+  opacity: 1;
+}
+
+.container .card .face.face1 .content i{
+  font-size: 3em;
+  color: white;
+  display: inline-block;
+}
+
+.container .card .face.face1 .content h3{
+  font-size: 1em;
+  color: white;
+  text-align: center;
+}
+
+.container .card .face.face1 .content a{
+   transition: .5s;
+}
+
+.container .card .face.face2{
+   position: relative;
+   background: whitesmoke;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   padding: 20px;
+  box-sizing: border-box;
+  box-shadow: 0 20px 50px rgba(0,0,0,.8);
+  transform: translateY(-100px);
+}
+
+.container .card:hover .face.face2{
+    transform: translateY(0);
+}
+
+.container .card .face.face2 .content p, a{
+  font-size: 10pt;
+  margin: 0 ;
+  padding: 0;
+  color:#333;
+}
+
+.container .card .face.face2 .content a{
+  text-decoration:none;
+  color: black;
+  box-sizing: border-box;
+  outline : 1px dashed #333;
+  padding: 10px;
+  margin: 15px 0 0;
+  display: inline-block;
+}
+
+.container .card .face.face2 .content a:hover{
+  background: #333 ;
+  color: whitesmoke; 
+  box-shadow: inset 0px 0px 10px rgba(0,0,0,0.5);
+}
+
+
+
+
+
+
+/*
+nav > ul > a{
+	position: relative;
+	font-size: 500%;
+	top: 500px;
+	left: 150px;
+	margin: 30px;
+	display: inline-block;
+	text-decoration: none;
+}
+
+
+.icon-github{
+	color: gray;
+	border-radius: 100%;
+  transition: transform 0.5s ease, box-shadow 0.5s ease;
+	transition: all 300ms ease;
+}
+
+.icon-gmail{
+	color: white;
+	border-radius: 100%;
+	transition: all 300ms ease;
+}
+
+.icon-linkedin{
+	color: lightblue;
+	border-radius: 100%;
+	transition: all 300ms ease;
+}
+
+
+.icon-github:hover{
+	border-radius: 100%;
+	transform: scale(1.5);
+	font-size: 100px;
+	transition: all 300ms ease;
+	box-shadow: 0 0 20px 5px #fff;
+}
+
+.icon-gmail:hover{
+	border-radius: 100%;
+	transform: scale(1.5);
+	font-size: 100px;
+	transition: all 300ms ease;
+	box-shadow: 0 0 20px 5px #fff;
+}
+
+nav > ul > a > span > .icon-linkedin:hover{
+	border-radius: 100%;
+	transform: scale(1.5);
+	font-size: 100px;
+	transition: all 300ms ease;
+	box-shadow: 0 0 20px 5px #a2d0ff;
+}*/
+
+
